@@ -12,4 +12,5 @@ node index.js
 
 dm ogluxury on discord for help.
 
+please follow me. it will give me motivation to leak more , even in madfut 25.
 enjoy. by the way you can change index.js and customize your bot 
