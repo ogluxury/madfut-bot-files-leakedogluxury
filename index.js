@@ -1761,7 +1761,7 @@ if (wallet.packs.length === 0) {
                 image: {
                     url: "https://media.discordapp.net/attachments/1219015136937775275/1224791668834959401/banner.png?ex=661ec721&is=660c5221&hm=a7cbf9445bfb13d43045c878c172e59923a990feaa3088f290b5b200251c7799&=&format=webp&quality=lossless&width=1056&height=594"
                 },
-                description: `**Showing <@!${userId}> Madfut 24 Wallet:**`,
+                description: `**Showing <@!${userId}> Wallet:**`,
                 fields: walletFields
             }
         ]
