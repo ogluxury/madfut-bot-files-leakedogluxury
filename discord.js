@@ -54,12 +54,12 @@ bot.connect();
 await Promise.all([
     once(bot, "ready")
 ]);
-console.log("MadFUT Legends Madfut Bot 2024");
+console.log("ogluxury madfut bot started.");
 // bot initialization start
 bot.editStatus({
-        name: "MadFUT With MFL",
+        name: "ogluxury",
     type: Constants.ActivityTypes.GAME,
-    url: "https://discord.gg/neyfut"
+    url: "https://discord.gg/madfut24"
 });
 
 const boosterSpinCommand = {
@@ -75,7 +75,7 @@ const linkCommand = {
     options: [
         {
             name: "username",
-            description: "Your MADFUT 24 username your trying to link with, no capitals or spaces.",
+            description: "your madfut username.",
             type: Constants.ApplicationCommandOptionTypes.STRING,
             required: true
         }
@@ -224,7 +224,7 @@ const forceEndTransactionMeCommand = {
 };
 const unlinkCommand = {
     name: "unlink",
-    description: "Unlink your MADFUT Account to your discord account! (MUST BE LINKED ALREADY)",
+    description: "unlink your madfut account from the bot.",
     type: Constants.ApplicationCommandOptionTypes.SUB_COMMAND
 };
     const updateNamesCommand = {
